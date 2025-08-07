@@ -1,0 +1,35 @@
+site_name: Чек-листы для QA
+site_url: https://vitaliya21.github.io/qa-documentation/ # Обязательно для правильных ссылок
+repo_url: https://github.com/vitaliya21/qa-documentation
+repo_name: vitaliya21/qa-documentation
+edit_uri: blob/main/docs/ # Если хотите кнопку "Edit this page"
+
+theme:
+  name: material # Используем красивую тему Material for MkDocs
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - content.code.copy # Добавляет кнопку копирования для кода
+  palette: # Пример настройки палитры
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav: # Навигация по сайту
+  - Основная информация: index.md
+  - 'Чек-листы 1 этапа': checklists/user_registration_checklist.md
+  
+  
+ 
+ 
+  # Добавляйте свои страницы здесь

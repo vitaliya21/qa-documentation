@@ -1,0 +1,7 @@
+/* docs/css/extra.css или docs/assets/stylesheets/extra.css */
+
+/* Скрывает текстовое название активной страницы в левой навигации */
+.md-nav__link--active .md-ellipsis {
+    display: none;
+}
+

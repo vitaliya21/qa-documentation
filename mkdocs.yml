@@ -4,6 +4,7 @@ repo_url: https://github.com/vitaliya21/qa-documentation
 repo_name: vitaliya21/qa-documentation
 edit_uri: blob/main/docs/ # Если хотите кнопку "Edit this page"
 
+
 theme:
   name: material # Используем красивую тему Material for MkDocs
   features:
@@ -27,9 +28,11 @@ theme:
         name: Switch to light mode
 nav: # Навигация по сайту
   - Основная информация: index.md
-  - 'Чек-листы 1 этапа': checklists/user_registration_checklist.md
+  - 'Чек-листы 4 этапа': checklists/user_registration_checklist.md
   
-  
- 
- 
   # Добавляйте свои страницы здесь
+
+
+# Добавьте эту секцию для развертывания
+extra:
+  github_pages_url: https://vitaliya21.github.io/qa-documentation/

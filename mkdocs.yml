@@ -7,10 +7,16 @@ edit_uri: blob/main/docs/ # Если хотите кнопку "Edit this page"
 
 theme:
   name: material # Используем красивую тему Material for MkDocs
+  language: ru
   features:
     - navigation.tabs
     - navigation.indexes
     - content.code.copy # Добавляет кнопку копирования для кода
+    - toc.integrate
+    - toc.title.integrate
+    
+  
+    
   palette: # Пример настройки палитры
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -28,10 +34,14 @@ theme:
         name: Switch to light mode
 nav: # Навигация по сайту
   - Основная информация: index.md
-  - 'Чек-листы 4 этапа': checklists/user_registration_checklist.md
+  - 'Чек-листы 4 этапа': checklists/4 step.md
   
   # Добавляйте свои страницы здесь
 
+
+# Добавьте эту секцию или обновите существующую
+extra_css:
+  - css/extra.css
 
 # Добавьте эту секцию для развертывания
 extra:
